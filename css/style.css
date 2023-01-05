@@ -36,9 +36,26 @@
   box-sizing: border-box;
 }
 
+html {
+  /* Adjusting size of rem and also allowing user's browser font size setting */
+  font-size: 62.5%;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
+}
+
+.hero {
+  max-width: 120rem;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+  background-color: orange;
+}
+
+.hero-img {
+  width: 100%;
 }
