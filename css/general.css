@@ -166,3 +166,7 @@ body {
   margin: 0 auto;
   padding: 0 3.2rem;
 }
+
+strong {
+  font-weight: 500;
+}

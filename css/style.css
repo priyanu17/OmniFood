@@ -207,3 +207,78 @@
   background-color: #fae5d3;
   z-index: -1;
 }
+
+/* ***************************** */
+/* MEALS SECTION */
+/* *************************** */
+
+.section-meals {
+  padding: 4.8rem 0;
+}
+
+.meal-img {
+  width: 100%;
+}
+
+.meal-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+
+.meal-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.meal-attributes {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 2.4rem;
+}
+
+.meal-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #cf711f;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #000;
+  border-radius: 2rem;
+  font-weight: 600;
+}
+
+.tag-veg {
+  background-color: #51cf66;
+}
+.tag-vegan {
+  background-color: #91c72d;
+}
+.tag-paleo {
+  background-color: rgb(188, 188, 57);
+}
+
+.meal-tags {
+  display: flex;
+  gap: 0.8rem;
+  margin: 1.2rem 0;
+}
+
+.meal-card {
+  box-shadow: 0 0 2.4rem rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.meal-content {
+  padding: 2.4rem;
+}
