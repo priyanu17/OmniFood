@@ -277,8 +277,48 @@
   box-shadow: 0 0 2.4rem rgba(0, 0, 0, 0.2);
   border-radius: 1rem;
   overflow: hidden;
+  transition: all 500ms;
+}
+
+.meal-card:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 0 2.4rem rgba(0, 0, 0, 0.3);
 }
 
 .meal-content {
   padding: 2.4rem;
+}
+
+.diet-item {
+  list-style-type: none;
+}
+
+.check-icon {
+  height: 3rem;
+  width: 3rem;
+  color: #cf711f;
+}
+
+.diet-item {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.diet-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.2rem;
+}
+
+.list-of-diets {
+  border-radius: 1rem;
+  flex: 1;
+}
+
+.all-recipes {
+  grid-column: 1/-1;
+  font-size: 1.8rem;
 }
