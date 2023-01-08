@@ -194,3 +194,22 @@ strong {
   color: #cf711f;
   border-bottom: 2px solid transparent;
 }
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.2rem;
+}
+
+.list-item {
+  list-style-type: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.end-justify-self {
+  justify-self: end;
+}
