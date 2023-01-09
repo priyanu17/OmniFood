@@ -441,3 +441,30 @@
   margin-top: 2rem;
   text-align: center;
 }
+
+.feature-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #e67e22;
+  margin-bottom: 3.2rem;
+  background-color: #fae5d3;
+  padding: 2rem;
+  border-radius: 50%;
+  box-sizing: content-box;
+}
+.feature-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+}
