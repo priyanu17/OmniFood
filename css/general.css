@@ -167,7 +167,6 @@ body {
   display: grid;
   row-gap: 9.2rem;
   column-gap: 6.4rem;
-  /* margin-bottom: 9.6rem; */
 }
 
 /* .grid:last-child {
@@ -194,6 +193,9 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid-5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
 strong {
   font-weight: 500;
 }
