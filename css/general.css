@@ -237,6 +237,7 @@ strong {
   display: flex;
   align-items: center;
   gap: 1.2rem;
+  line-height: 1.2;
 }
 
 .end-justify-self {
