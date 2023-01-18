@@ -50,6 +50,7 @@
 html {
   /* Adjusting size of rem and also allowing user's browser font size setting */
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
